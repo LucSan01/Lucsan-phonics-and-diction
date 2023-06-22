@@ -1,0 +1,241 @@
+.navbar-section{
+  background-image: url("../img/navbarsectionimg.png");
+  width: 100%;
+  height: 60rem;
+  background-repeat: no-repeat;
+ 
+}
+
+/* navigation bar */
+
+.navbar-brand {
+ padding-top: 1rem;
+  margin-left: 1.5rem;
+  font-family: 'Bonbon', cursive;
+  font-size: 3rem;
+  color: #fff;
+  font-weight:600;
+  width: 30%;
+  
+}
+
+img {
+  width: 15%;
+  padding-right: 0.2rem;
+  
+}
+
+.navbar-toggler{
+  color: #fff;
+  font-size:xx-large;
+}
+
+.navbar-nav, .nav-link {
+  color: white;
+  font-size: 1rem;
+  font-weight: bolder;
+  margin-left: 0.8rem;
+}
+
+.navbar-nav {
+  display: flex;
+  margin-left: 30%;
+  flex-direction: row;
+  
+}
+.welcome {
+  text-align:right;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  position: relative;
+  padding: 30px 0 20px 0;
+  float: right;
+  margin-left: 45%;
+  border-right: #fff solid;
+  padding-right: 10px;
+}
+.welcome h1 span{
+  font-family: 'Ruge+Boogie', cursive;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 20px 0;
+  
+}
+.welcome .spanwelcome{
+  color: #11009E;
+}
+
+.speakright{
+  margin-top: 50px;
+  font-size: 18px;
+  margin-left: 50%;
+  margin-right: 20px;
+  color: #fff;
+  float:left;
+  border-left: #11009E solid;
+  padding-left: 10px;
+}
+.speakright p{
+  color: #11009E;
+}
+.carousel-item img{
+  width: 5%;
+  height: 300px
+}
+a:hover {
+  color: #11009E;
+}
+.display{
+  text-align: center;
+  margin: 2rem;
+  text-transform: capitalize;
+  
+}
+
+.display h3 {
+  color: #11009E;
+  margin: 4rem auto 2rem;
+}
+.card {
+  border: #11009E solid;
+  text-align:center;
+  margin: 4rem auto;
+}
+.card-body{
+  width: auto;
+  height: 20rem;
+}
+
+@media screen and (max-width: 768px) {
+  .navbar-section{
+    background-image:linear-gradient(to right, rgba(225, 106, 187, 0.849), rgb(85, 85, 215));
+     width: 100%;
+    height: 40rem;
+
+  }
+  .navbar-brand {
+    margin-left: 0.5rem;
+    font-family: 'Bonbon', cursive;
+    font-size: 2rem;
+  }
+  .navbar-brand img {
+    width: 15%;
+    padding-right: 0.2rem;
+    
+  } 
+  .navbar-nav, 
+  .nav-link {
+    flex-direction:column;
+    margin-left: 1rem;
+    font-size: 13px;
+    
+  }
+  
+  .welcome {
+    
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    position: relative;
+    padding: 20px 0 20px 0;
+    float: right;
+    margin-left: 20%;
+    margin-right: 18px;
+  } 
+  .speakright{
+    margin-top: 50px;
+    font-size: 18px;
+    margin-left: 5%;
+    margin-right: 18px;
+    color: #11009E;
+    float:left;
+  }
+  .speakright p{
+    color: #fff;
+  }
+  .card {
+    border: #11009E solid;
+    text-align:center;
+    margin: 40px;
+  }
+  .card-body{
+    width: auto;
+    height: 20rem;
+  }
+}
+
+  /* .navbar-brand{
+    visibility:collapse;
+  } */
+ 
+  
+  
+  .h1welcome {
+    font-size: 30px;
+  }
+  .logoBrand {
+    color: rebeccapurple;
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+/* @media screen and (max-width: 750px) {
+  .column {
+    width: 70%;
+    display: block;
+  }
+} */
+/*FOOTER CSS*/
+.footer {
+  background-image:linear-gradient(to right, rgba(225, 106, 187, 0.849), rgb(85, 85, 215));
+     width: 100%;
+    height: 15rem;
+  display: flex;
+  text-align: center;
+  color: white;
+  padding: 10px 10px 0px 10px;
+  margin-top: 40px;
+}
+.allfooter{
+  margin: 2rem;
+}
+.footerlink a span{
+  color: #11009E;
+  margin: 1rem 0.7rem;
+  font-size: 20px;
+  border: #11009E solid;
+  border-radius: 50%;
+  padding: 3px;
+  background-color: #fff;
+}
+.footer p, .footer p a{
+  color: #fff;
+  font-size: 1.5rem;
+
+}
+.footerlink a span:hover{
+  color: rgb(225, 75, 178);
+}
+.footer p a:hover{
+  color:#11009E;
+}
+
+
+/* for contact page */
+label {
+  display: block;
+  font-size: 20px;
+  color: #009dffe8;
+  font-weight: bold;
+}
+.myform {
+  margin: 2px;
+  padding: 50px;
+  justify-content: center;
+  align-items: center;
+}
+input,
+textarea {
+  border-radius: 5px;
+}
