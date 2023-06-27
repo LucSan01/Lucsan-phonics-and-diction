@@ -19,11 +19,11 @@
   
 }
 
-img {
+.navbar-brand img {
   width: 15%;
   padding-right: 0.2rem;
   
-}
+} 
 
 .navbar-toggler{
   color: #fff;
@@ -92,6 +92,17 @@ a:hover {
   text-transform: capitalize;
   
 }
+.carousel {
+  background-image:linear-gradient(to right, rgba(225, 106, 187, 0.849), rgb(85, 85, 215));
+}
+.carousel-item img{
+  width: 40%;
+  height: 420px
+}
+.carousel-item video{
+  width: 40%;
+  height: 400px;
+}
 
 .display h3 {
   color: #11009E;
@@ -107,11 +118,11 @@ a:hover {
   height: 20rem;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 600px) {
   .navbar-section{
     background-image:linear-gradient(to right, rgba(225, 106, 187, 0.849), rgb(85, 85, 215));
      width: 100%;
-    height: 40rem;
+    height: 45rem;
 
   }
   .navbar-brand {
@@ -160,8 +171,8 @@ a:hover {
     margin: 40px;
   }
   .card-body{
-    width: auto;
-    height: 20rem;
+    width: 100%;
+    height: 23rem;
   }
 }
 
@@ -226,16 +237,18 @@ a:hover {
 label {
   display: block;
   font-size: 20px;
-  color: #009dffe8;
+  color:#11009E;
   font-weight: bold;
 }
-.myform {
-  margin: 2px;
-  padding: 50px;
-  justify-content: center;
-  align-items: center;
+.formfield{
+  margin-right: 70%;
 }
-input,
-textarea {
-  border-radius: 5px;
+.formfield input{
+  margin: 13px;
+  min-height: 30px;
+
+border:none;
+border-bottom:  3px solid  #11009E;
+
 }
+
