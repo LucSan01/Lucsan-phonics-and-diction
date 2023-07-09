@@ -1,23 +1,15 @@
-<!DOCTYPE html>
-<html lang="en">
+<%- include("partials/head") %>
+<section class="getStarted">
+<%- include("partials/navbar") %>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/style.css">
-</head>
-
-<body>
     <div class="container">
         <div class="getStarted">
             <h2>Register Now</h2>
             <p>Start your journey to PUBLIC SPEAKING and become a fluent speaker</p>
-            <SPan>Already have an account with us LOGIN</SPan>
+            <span>Already have an account with us <a href="">LOGIN</a> </span>
             <div class="form">
                 <h2>Register</h2>
-                <form action="">
+                <form action="osakweluckychukwudi@gmail.com" method="post">
                     <fieldset class="row formfield">
                         <label for="fname">First Name: </label><input type="text" name="fname" id="fname"
                             placeholder="Enter Your First Name" required></label>
@@ -39,12 +31,14 @@
                         <label for="age">Your Age: <input type="number" name="age" id="age"></label>
                         <label for="referrer"></label>
                     </fieldset>
-                    
+                    <button class="btn btn-primary">Submit</button>                    
                 </form>
 
             </div>
         </div>
     </div>
-</body>
 
-</html>
+    
+    <%- include("partials/footer")  %>
+</section>
+
